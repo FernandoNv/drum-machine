@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/drum-machine/static/css/main.a64b587d.chunk.css",
+    "main.css": "/drum-machine/static/css/main.ec7fed90.chunk.css",
     "main.js": "/drum-machine/static/js/main.0c21f944.chunk.js",
     "main.js.map": "/drum-machine/static/js/main.0c21f944.chunk.js.map",
     "runtime-main.js": "/drum-machine/static/js/runtime-main.49a0ba3c.js",
@@ -8,16 +8,16 @@
     "static/js/2.ebe64ca4.chunk.js": "/drum-machine/static/js/2.ebe64ca4.chunk.js",
     "static/js/2.ebe64ca4.chunk.js.map": "/drum-machine/static/js/2.ebe64ca4.chunk.js.map",
     "index.html": "/drum-machine/index.html",
-    "precache-manifest.4a8c27bad19414ebe8dcbec6bc0c377a.js": "/drum-machine/precache-manifest.4a8c27bad19414ebe8dcbec6bc0c377a.js",
+    "precache-manifest.3fc44d3bca50241ad73ff949d6fe9e95.js": "/drum-machine/precache-manifest.3fc44d3bca50241ad73ff949d6fe9e95.js",
     "service-worker.js": "/drum-machine/service-worker.js",
-    "static/css/main.a64b587d.chunk.css.map": "/drum-machine/static/css/main.a64b587d.chunk.css.map",
+    "static/css/main.ec7fed90.chunk.css.map": "/drum-machine/static/css/main.ec7fed90.chunk.css.map",
     "static/js/2.ebe64ca4.chunk.js.LICENSE.txt": "/drum-machine/static/js/2.ebe64ca4.chunk.js.LICENSE.txt",
     "static/media/box.styles.scss": "/drum-machine/static/media/pexels-wendy-wei.8973faac.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.49a0ba3c.js",
     "static/js/2.ebe64ca4.chunk.js",
-    "static/css/main.a64b587d.chunk.css",
+    "static/css/main.ec7fed90.chunk.css",
     "static/js/main.0c21f944.chunk.js"
   ]
 }
