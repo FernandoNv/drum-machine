@@ -1,0 +1,58 @@
+.Button{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+    .btn-area{
+        width: 30px;
+        height: 15px;
+        background-color: #30181A;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 20px;
+        position: relative;
+        cursor: pointer;
+
+        .btn{
+            content: "";
+            display: block;
+            width: 15px;
+            height: 15px;
+            background-color: #DCD0CF;
+            border-radius: 50%;
+            box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+            transition: 0.3s all ease-in-out;
+            position: absolute;
+            top: 0;
+            left: 0;
+        }
+
+        .clicked{
+            left: 15px;
+        }
+    }
+
+    .title-btn{
+        color: #DCD0CF;
+        margin-top: 5px;
+    }
+}
+
+
+@media screen and (min-width: 768px){
+    .Button{
+        .btn-area{
+            width: 50px;
+            height: 25px;
+            
+            .btn{
+                width: 25px;
+                height: 25px;
+            }
+
+            .clicked{
+                left: 25px;
+            }
+        }
+    }
+}

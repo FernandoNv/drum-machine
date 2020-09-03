@@ -1,0 +1,13 @@
+.DrumPadsWrapper{
+    max-width: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+@media screen and (min-width: 768px){
+    .DrumPadsWrapper{
+        max-width: 350px;
+    }        
+}

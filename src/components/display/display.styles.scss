@@ -1,0 +1,75 @@
+.Display {
+    width: 100%;
+    height: 70%;
+    padding: 1.5rem;
+    background-color: #483D8B;
+    display: flex;
+    flex-direction: column;
+
+
+    .block{
+        height: 50%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+    }
+    
+    .header{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .title{
+        font-size: 1.5rem;
+        text-align: center;
+        max-width: 100px;
+        margin: 0.5rem 0;
+        color:#fff;
+
+        .styled-title{
+            font-size: 1.5rem;
+            font-family: 'Lobster', cursive;
+            color: #FF8C00;
+        }
+    }
+
+    .footer{
+        color: #fff;
+        text-align: center;
+        
+        p{
+            font-size: 0.5rem;
+        }
+    }
+
+    
+}
+
+@media screen and (min-width: 768px){
+    .Display {
+        padding: 3rem;
+
+        .title{
+            font-size: 2.5rem;
+            max-width: 250px;
+
+            .styled-title{
+                font-size: 2.5rem;
+            }
+        }
+
+        .footer{
+            p{
+                font-size: 1rem;
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 1280px){
+    .Display {
+        width: 50%;
+        height: 100%;
+    }
+}
